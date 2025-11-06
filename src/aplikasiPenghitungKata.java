@@ -153,7 +153,9 @@ public class aplikasiPenghitungKata extends javax.swing.JFrame {
         jScrollPane1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         txtInput.setColumns(20);
+        txtInput.setLineWrap(true);
         txtInput.setRows(5);
+        txtInput.setWrapStyleWord(true);
         jScrollPane1.setViewportView(txtInput);
 
         btnHitung.setText("Hitung");
